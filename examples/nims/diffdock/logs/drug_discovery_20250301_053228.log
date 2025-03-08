@@ -1,0 +1,69 @@
+2025-03-01 05:32:55,579 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:32:55,592 - drug_discovery_pipeline - ERROR - Visualization failed: showmol() got an unexpected keyword argument 'returnJS'
+Traceback (most recent call last):
+  File "/home/hmpakula/nvdia_repo/bionemo-examples/examples/nims/diffdock/prehit.py", line 551, in visualize_3d_structure
+    st_mol_html = showmol(view, height=height, width=width, returnJS=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: showmol() got an unexpected keyword argument 'returnJS'
+2025-03-01 05:33:17,652 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:33:17,661 - drug_discovery_pipeline - ERROR - Visualization failed: showmol() got an unexpected keyword argument 'returnJS'
+Traceback (most recent call last):
+  File "/home/hmpakula/nvdia_repo/bionemo-examples/examples/nims/diffdock/prehit.py", line 551, in visualize_3d_structure
+    st_mol_html = showmol(view, height=height, width=width, returnJS=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: showmol() got an unexpected keyword argument 'returnJS'
+2025-03-01 05:33:17,706 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:37:32,994 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:37:50,170 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:40:13,830 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:40:55,800 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:40:55,831 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:45:09,590 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:45:13,059 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:45:13,089 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:45:13,212 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:45:28,845 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:45:28,869 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:45:28,941 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_PT1_A_residues.csv
+2025-03-01 05:46:15,455 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:46:15,481 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:46:15,565 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_PT1_A_residues.csv
+2025-03-01 05:49:18,241 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:49:21,730 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:49:21,756 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:49:21,837 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:49:49,838 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:49:49,871 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:49:49,953 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:49:49,970 - drug_discovery_pipeline - INFO - ACTION: Pharmacophore_Generation - Created model 6JWS_P_ATP_A
+2025-03-01 05:49:49,983 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_P_ATP_A_pharmacophore.json
+2025-03-01 05:49:49,990 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_P_ATP_A_pharmacophore.sdf
+2025-03-01 05:50:43,982 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:50:44,014 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:50:44,091 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:50:49,051 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:50:49,078 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:50:49,158 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:51:55,946 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:51:55,973 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:51:56,242 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:51:56,270 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:51:56,350 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:52:50,752 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:52:50,786 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:52:50,864 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:52:53,981 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:52:54,010 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:52:54,090 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:52:59,556 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:52:59,590 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:52:59,673 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:53:02,816 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:53:02,841 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:53:02,919 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:53:29,789 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:53:29,815 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:53:29,897 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv
+2025-03-01 05:53:30,150 - drug_discovery_pipeline - INFO - ACTION: File_Load - Loaded 6JWS.pdb
+2025-03-01 05:53:30,178 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pockets.csv
+2025-03-01 05:53:30,256 - drug_discovery_pipeline - INFO - ACTION: File_Export - Exported 6JWS_pocket_P_ATP_A_residues.csv

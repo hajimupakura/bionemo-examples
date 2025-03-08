@@ -1,0 +1,983 @@
+{
+  "id": "63ac7784-741a-4332-982b-a2b80d76f379",
+  "name": "Dhara",
+  "description": "",
+  "messages": [
+    {
+      "id": "6506d842-bd61-43ce-90ba-49048234b94a",
+      "role": "user",
+      "content": "Why is DHPS HPPK important in malaria drug discovery",
+      "timestamp": "2025-03-02T15:50:32.094751"
+    },
+    {
+      "id": "9f62f77d-bba9-402e-be9e-a205acafb52d",
+      "role": "assistant",
+      "content": "**Importance of DHPS and HPPK in Malaria Drug Discovery: A Structured Analysis**\n\n1. **Target Validation in the Folate Biosynthesis Pathway**  \n   - **DHPS (Dihydropteroate Synthase)**: Catalyzes the condensation of 6-hydroxymethyl-7,8-dihydropterin pyrophosphate (DHPPP) with *para*-aminobenzoic acid (pABA) to form dihydropteroate, a precursor to folate.  \n   - **HPPK (6-Hydroxymethyl-7,8-dihydropterin Pyrophosphokinase)**: Upstream enzyme that generates DHPPP by transferring a pyrophosphate group from ATP to 6-hydroxymethyl-7,8-dihydropterin.  \n   - Both enzymes are essential for *de novo* folate synthesis in *Plasmodium* parasites. Since humans rely on dietary folate, these targets offer high selectivity, minimizing host toxicity.\n\n2. **Current Drug Landscape and Resistance**  \n   - **DHPS Inhibitors**: Sulfadoxine (a sulfa drug) targets DHPS and is used in combination with pyrimethamine (targeting DHFR). However, widespread resistance has emerged due to mutations (e.g., PfDHPS A437G, K540E) that reduce drug binding.  \n   - **HPPK as an Underexploited Target**: No clinically approved HPPK inhibitors exist, making it a novel avenue to circumvent resistance. Resistance mechanisms here are less likely to have evolved, providing a strategic advantage.\n\n3. **Structural Insights for Drug Design**  \n   - **DHPS Mutations**: Structural studies reveal that resistance mutations (e.g., in the pABA-binding pocket) alter the active site. Designing inhibitors that interact with conserved regions (e.g., the pyrophosphate-binding loop) could overcome resistance.  \n   - **HPPK Catalytic Mechanism**: HPPK\u2019s ATP-binding site and flexible loops involved in substrate recognition are potential targets. Structural differences between *Plasmodium* and human homologs (if any) could enable selective inhibition.\n\n4. **Synergistic Strategies**  \n   - **Dual Targeting**: Inhibiting both HPPK and DHPS could create a \"double blockade\" in folate synthesis, reducing the likelihood of resistance. For example, an HPPK inhibitor would limit substrate availability for DHPS, enhancing the efficacy of DHPS inhibitors.  \n   - **Combination Therapies**: Pairing HPPK/DHPS inhibitors with unrelated antimalarials (e.g., artemisinin derivatives) could delay resistance through multi-stage action.\n\n5. **Parasite Lifecycle Considerations**  \n   Folate is critical for DNA synthesis in rapidly dividing blood-stage parasites. Targeting DHPS/HPPK could also impact liver-stage development, offering potential for prophylactic use.\n\n6. **Future Directions**  \n   - **High-Throughput Screening**: Identify novel HPPK inhibitors using *Plasmodium*-specific enzyme assays.  \n   - **Structure-Based Optimization**: Leverage X-ray crystallography and computational modeling to design inhibitors resistant to mutation-driven binding loss.  \n   - **Validation of Selectivity**: Ensure minimal off-target effects by comparing parasite enzymes with human homologs (e.g., human FPGS in folate metabolism).\n\n**Actionable Insights**  \n- Prioritize HPPK inhibitor development to exploit an underexplored node in the folate pathway.  \n- Design dual-target inhibitors or combinations to enhance efficacy and resistance resilience.  \n- Use structural data to engineer next-generation DHPS inhibitors active against resistant strains.  \n\nBy focusing on these enzymes, researchers can address existing resistance challenges and develop more durable antimalarial therapies.",
+      "timestamp": "2025-03-02T15:52:06.356898"
+    },
+    {
+      "id": "ab8ccf7a-f005-4503-86a9-cfe4c72b0b02",
+      "role": "user",
+      "content": "What novel strategies around HPPK should we be exploring. Can you give ideas and help",
+      "timestamp": "2025-03-02T15:52:46.370333"
+    },
+    {
+      "id": "a0973370-7635-4597-9ec0-54962922a8cc",
+      "role": "assistant",
+      "content": "**Novel Strategies for Targeting HPPK in Malaria Drug Discovery**  \nHPPK (6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase) is a promising yet underexploited target in malaria due to its critical role in folate biosynthesis and the absence of clinical resistance. Below are actionable, innovative strategies to advance HPPK-focused antimalarial development:\n\n---\n\n### **1. Structure-Guided Drug Design**  \n**Rationale**: Leverage high-resolution structural data (X-ray/cryo-EM) of *Plasmodium* HPPK to design inhibitors with high specificity.  \n- **Key Insights**:  \n  - Target the ATP-binding pocket or the flexible \"lid\" loop (residues 80-100 in *P. falciparum* HPPK) that closes over substrates during catalysis.  \n  - Exploit differences between *Plasmodium* and human HPPK homologs (e.g., human HPPK is absent; folate metabolism relies on FPGS).  \n- **Actionable Ideas**:  \n  - **Fragment-Based Screening**: Identify small-molecule fragments that bind to conserved regions (e.g., the pyrophosphate-binding motif).  \n  - **Covalent Inhibitors**: Design compounds with warheads targeting catalytic cysteine or lysine residues (e.g., C109 in *Pf*HPPK).  \n  - **Allosteric Inhibitors**: Target dynamic regions like the hinge between the N- and C-terminal domains to disrupt conformational changes required for catalysis.\n\n---\n\n### **2. Dual-Target Inhibition**  \n**Rationale**: Simultaneously inhibit HPPK and downstream enzymes (e.g., DHPS or DHFR) to create a synergistic \"folate pathway blockade.\"  \n- **Key Insights**:  \n  - Resistance is less likely if two sequential enzymes are inhibited.  \n  - HPPK\u2019s product (DHPPP) is the substrate for DHPS; limiting DHPPP starves DHPS even if resistant mutants exist.  \n- **Actionable Ideas**:  \n  - **Hybrid Molecules**: Develop bifunctional inhibitors (e.g., a sulfa-drug scaffold linked to an ATP-mimetic for HPPK-DHPS dual targeting).  \n  - **Combination Therapies**: Pair HPPK inhibitors with existing DHFR inhibitors (e.g., pyrimethamine) or next-gen DHPS inhibitors.\n\n---\n\n### **3. Targeting Parasite-Specific HPPK Features**  \n**Rationale**: Exploit unique structural or mechanistic aspects of *Plasmodium* HPPK absent in humans.  \n- **Key Insights**:  \n  - *Pf*HPPK lacks a conserved \"Walker A motif\" seen in bacterial homologs, suggesting distinct ATP-binding mechanisms.  \n  - The enzyme\u2019s dimeric interface in *Plasmodium* could be disrupted to inhibit activity.  \n- **Actionable Ideas**:  \n  - **Dimerization Disruptors**: Design peptides or small molecules that prevent HPPK dimer formation.  \n  - **Species-Specific ATP Analogs**: Optimize ATP-competitive inhibitors using *Plasmodium*-specific ATP-binding pocket features (e.g., hydrophobic subpockets).\n\n---\n\n### **4. Resistance-Proof Inhibitors**  \n**Rationale**: Preempt resistance by targeting evolutionarily constrained regions of HPPK.  \n- **Key Insights**:  \n  - Catalytic residues (e.g., K42, D89 in *Pf*HPPK) are highly conserved; mutations here would likely cripple enzyme function.  \n  - Resistance to HPPK inhibitors is rare, as no clinical compounds exist.  \n- **Actionable Ideas**:  \n  - **Deep Mutational Scanning**: Use CRISPR-Cas9 to identify HPPK mutations that confer resistance, then design inhibitors resilient to these changes.  \n  - **Multi-Pronged Binding**: Develop inhibitors that engage both the ATP and pterin-binding sites simultaneously.\n\n---\n\n### **5. Leveraging Antisense or Gene Editing**  \n**Rationale**: Disrupt HPPK expression or function at the genetic level.  \n- **Key Insights**:  \n  - CRISPR-Cas9 screens confirm HPPK is essential in *Plasmodium* blood stages.  \n  - Antisense oligonucleotides (ASOs) could silence HPPK mRNA in parasites.  \n- **Actionable Ideas**:  \n  - **Peptide Nucleic Acids (PNAs)**: Design PNAs targeting *HPPK* mRNA for degradation.  \n  - **CRISPR Interference (CRISPRi)**: Repurpose dCas9 to suppress *HPPK* transcription in preclinical models.\n\n---\n\n### **6. Prophylactic and Transmission-Blocking Applications**  \n**Rationale**: Target HPPK in liver-stage parasites or gametocytes to block transmission.  \n- **Key Insights**:  \n  - Folate is critical for sporozoite development in the liver and gametocyte maturation.  \n- **Actionable Ideas**:  \n  - **Liver-Targeted Prodrugs**: Modify HPPK inhibitors to accumulate in hepatocytes (e.g., add lipophilic groups).  \n  - **Transmission-Blocking Combinations**: Pair HPPK inhibitors with primaquine analogs to eliminate gametocytes.\n\n---\n\n### **7. Computational and AI-Driven Approaches**  \n**Rationale**: Accelerate inhibitor discovery with machine learning and molecular dynamics.  \n- **Key Insights**:  \n  - AlphaFold-predicted *Plasmodium* HPPK structures can guide virtual screening.  \n  - Generative AI can propose novel scaffolds with optimal pharmacophores.  \n- **Actionable Ideas**:  \n  - **Virtual Screening Libraries**: Prioritize compounds with predicted high affinity for *Pf*HPPK\u2019s ATP-binding site.  \n  - **Molecular Dynamics (MD)**: Simulate HPPK\u2019s conformational dynamics to identify transient pockets for inhibitor binding.\n\n---\n\n### **8. Collaborative and Translational Strategies**  \n- **Academic-Industry Partnerships**: Screen HPPK inhibitors against compound libraries (e.g., MMV Pathogen Box).  \n- **In Vitro/In Vivo Validation**:  \n  - Use transgenic *P. falciparum* lines overexpressing HPPK to assess resistance potential.  \n  - Test lead compounds in humanized mouse models with liver-stage infection.  \n- **Pharmacokinetic Optimization**: Ensure inhibitors cross host and parasite membranes (e.g., use prodrugs for improved bioavailability).\n\n---\n\n### **Key Challenges and Mitigation**  \n- **Selectivity**: Confirm absence of off-target effects against human kinases (e.g., via kinome-wide profiling).  \n- **Parasite Salvage Pathways**: Block folate transporters (e.g., *Pf*FT1) to prevent exogenous folate uptake.  \n- **Cost-Effectiveness**: Prioritize compounds amenable to low-cost synthesis for global access.\n\n---\n\n**Conclusion**  \nHPPK represents a frontier for next-generation antimalarials. By combining structural biology, dual-target approaches, and computational innovation, researchers can develop resistance-resilient therapies with novel mechanisms of action. Immediate next steps include high-throughput screening campaigns and validation of HPPK\u2019s druggability in *Plasmodium* lifecycle stages.",
+      "timestamp": "2025-03-02T15:54:43.681721"
+    }
+  ],
+  "searches": [
+    {
+      "id": "7b4a5099-aa89-421b-a27d-edfa939c8b37",
+      "query": "jn",
+      "results": [
+        {
+          "title": "Recent advances in drug discovery targeting jn",
+          "authors": "Smith J, Johnson A, et al.",
+          "journal": "Journal of Medicinal Chemistry",
+          "year": 2023,
+          "doi": "10.1021/example.12345",
+          "abstract": "This paper reviews recent developments in jn and its implications for drug discovery..."
+        },
+        {
+          "title": "Structure-based design of novel inhibitors for jn",
+          "authors": "Chen L, Wang H, et al.",
+          "journal": "Nature Drug Discovery",
+          "year": 2022,
+          "doi": "10.1038/example.67890",
+          "abstract": "In this study, we report the development of several potent inhibitors of jn..."
+        }
+      ],
+      "timestamp": "2025-03-02T15:56:46.570276"
+    },
+    {
+      "id": "7b4a5099-aa89-421b-a27d-edfa939c8b37",
+      "query": "jn",
+      "results": [
+        {
+          "title": "Recent advances in drug discovery targeting jn",
+          "authors": "Smith J, Johnson A, et al.",
+          "journal": "Journal of Medicinal Chemistry",
+          "year": 2023,
+          "doi": "10.1021/example.12345",
+          "abstract": "This paper reviews recent developments in jn and its implications for drug discovery..."
+        },
+        {
+          "title": "Structure-based design of novel inhibitors for jn",
+          "authors": "Chen L, Wang H, et al.",
+          "journal": "Nature Drug Discovery",
+          "year": 2022,
+          "doi": "10.1038/example.67890",
+          "abstract": "In this study, we report the development of several potent inhibitors of jn..."
+        }
+      ],
+      "timestamp": "2025-03-02T15:56:46.570276"
+    },
+    {
+      "id": "7176eace-33cc-49c7-832a-098a07d8c1ad",
+      "query": "jn",
+      "results": [
+        {
+          "title": "Recent advances in drug discovery targeting jn",
+          "authors": "Smith J, Johnson A, et al.",
+          "journal": "Journal of Medicinal Chemistry",
+          "year": 2023,
+          "doi": "10.1021/example.12345",
+          "abstract": "This paper reviews recent developments in jn and its implications for drug discovery..."
+        },
+        {
+          "title": "Structure-based design of novel inhibitors for jn",
+          "authors": "Chen L, Wang H, et al.",
+          "journal": "Nature Drug Discovery",
+          "year": 2022,
+          "doi": "10.1038/example.67890",
+          "abstract": "In this study, we report the development of several potent inhibitors of jn..."
+        }
+      ],
+      "timestamp": "2025-03-02T15:57:01.636053"
+    },
+    {
+      "id": "7176eace-33cc-49c7-832a-098a07d8c1ad",
+      "query": "jn",
+      "results": [
+        {
+          "title": "Recent advances in drug discovery targeting jn",
+          "authors": "Smith J, Johnson A, et al.",
+          "journal": "Journal of Medicinal Chemistry",
+          "year": 2023,
+          "doi": "10.1021/example.12345",
+          "abstract": "This paper reviews recent developments in jn and its implications for drug discovery..."
+        },
+        {
+          "title": "Structure-based design of novel inhibitors for jn",
+          "authors": "Chen L, Wang H, et al.",
+          "journal": "Nature Drug Discovery",
+          "year": 2022,
+          "doi": "10.1038/example.67890",
+          "abstract": "In this study, we report the development of several potent inhibitors of jn..."
+        }
+      ],
+      "timestamp": "2025-03-02T15:57:01.636053"
+    },
+    {
+      "id": "071fb110-03d3-4fab-b223-258e400050ee",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:08:21.869944"
+    },
+    {
+      "id": "071fb110-03d3-4fab-b223-258e400050ee",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:08:21.869944"
+    },
+    {
+      "id": "11758e68-7ca5-4081-ba96-fbafd59b9c70",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:14:41.450731"
+    },
+    {
+      "id": "11758e68-7ca5-4081-ba96-fbafd59b9c70",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:14:41.450731"
+    },
+    {
+      "id": "8754d35d-84a5-444d-bc9a-08279e805bc0",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:15:23.663867"
+    },
+    {
+      "id": "8754d35d-84a5-444d-bc9a-08279e805bc0",
+      "query": "Target proteins (e.g., \"EGFR inhibitors\")",
+      "results": [
+        {
+          "title": "In vitro evidence for the potential of EGFR inhibitors to decrease the TGF-\u03b21-induced dispersal of circulating tumour cell clusters mediated by EGFR overexpression.",
+          "authors": "Hapeman JD, Galwa R, Carneiro CS, Nedelcu AM.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1038/s41598-024-70358-x",
+          "pmid": "39198539",
+          "abstract": "Most cancer-related deaths are due to the spread of tumour cells throughout the body-a process known as metastasis. While in the vasculature, these cells are referred to as circulating tumour cells (CTCs) and can be found as either single cells or clusters of cells (often including platelets), with the latter having the highest metastatic potential. However, the biology of CTC clusters is poorly understood, and there are no therapies that specifically target them. We previously developed an in vitro model system for CTC clusters and proposed a new extravasation model that involves cluster dissociation, adherence, and single-cell invasion in response to TGF-\u03b21 released by platelets. Here, we investigated TGF-\u03b21-induced gene expression changes in this model, focusing on genes for which targeted drugs are available. In addition to the upregulation of the TGF-\u03b21 signalling pathway, we found that (i) genes in the EGF/EGFR pathway, including those coding for EGFR and several EGFR ligands, were also induced, and (ii) Erlotinib and Osimertinib, two therapeutic\u00a0EGFR/tyrosine kinase inhibitors, decreased the TGF-\u03b21-induced adherence and invasion of the CTC cluster-like line despite the line expressing wild-type EGFR. Overall, we suggest that EGFR inhibitors have the potential to decrease the dispersal of CTC clusters that respond to TGF-\u03b21 and overexpress EGFR (irrespective of its status) and thus could improve patient survival.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Drug-Induced Liver Injury Associated With Emerging Cancer Therapies.",
+          "authors": "Chodup P, Samodelov SL, Visentin M, Kullak-Ublick GA.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/liv.70002",
+          "pmid": "39853863",
+          "abstract": "Targeted therapies and immunotherapies have shown great promise as best-in-class treatments for several cancers with respect to efficacy and safety. While liver test abnormalities are rather common in patients treated with kinase inhibitors or immunotherapy, events of severe hepatotoxicity in these patients are rare in comparison with those associated with chemotherapeutics. The underlying mechanisms and risk factors for severe hepatotoxicity with novel oncology therapies are not well understood, complicating the drug-induced liver injury (DILI) risk assessment in the preclinical and clinical phases of drug development. The epidemiological and clinical characteristics, as well as mechanisms of liver toxicity, are described here to the current state of knowledge. Tools to study and assess the risk of DILI during drug development are concisely summarised, focusing on caveats thereof for novel oncology treatments. Emerging tools to optimise safety assessments and gather additional mechanistic insights into DILI are introduced. Particularly in oncology, where standard liver signals during drug development are tolerated to a marginally higher degree than in other indications due to the life-saving, life-extending and quality-of-life improvements for patients with severe or advanced cancers versus previous standard-of-care therapeutics, safety assessments must be tailored to the drug and indication. Trends in patient safety-centred drug development programmes and regulatory approval processes must continually be revisited and streamlined via obtaining an overall greater understanding of DILI and the tools available to assess mechanisms of injury, frequency, severity and prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Redefining Therapeutic Approaches in Colorectal Cancer: Targeting Molecular Pathways and Overcoming Resistance.",
+          "authors": "Duta-Ion SG, Juganaru IR, Hotinceanu IA, Dan A, Burtavel LM, Coman MC, Focsa IO, Zaruha AG, Codreanu PC, Bohiltea LC, Radoi VE.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252312507",
+          "pmid": "39684219",
+          "abstract": "Colorectal cancer (CRC) arises through a combination of genetic and epigenetic alterations that affect key pathways involved in tumor growth and progression. This review examines the major molecular pathways driving CRC, including Chromosomal Instability (CIN), Microsatellite Instability (MSI), and the CpG Island Methylator Phenotype (CIMP). Key mutations in genes such as APC, KRAS, NRAS, BRAF, and TP53 activate signaling pathways like Wnt, EGFR, and PI3K/AKT, contributing to tumorigenesis and influencing responses to targeted therapies. Resistance mechanisms, including mutations that bypass drug action, remain challenging in CRC treatment. This review highlights the role of molecular profiling in guiding the use of targeted therapies such as tyrosine kinase inhibitors and immune checkpoint inhibitors. Novel combination treatments are also discussed as strategies to improve outcomes and overcome resistance. Understanding these molecular mechanisms is critical to advancing personalized treatment approaches in CRC and improving patient prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Preventive and Therapeutic Strategies for Oral Cancer: A Short Review.",
+          "authors": "Ma L, Kim MO.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.15430/jcp.24.027",
+          "pmid": "39790224",
+          "abstract": "Oral cancer is a major global health concern, with high incidence and mortality rates, especially in high-risk populations. Early diagnosis remains a challenge, and current treatments, such as surgery, radiation, and chemotherapy, have limited effectiveness, particularly in advanced stages. Recent advances in targeted therapies and immunotherapy offer promising alternatives, providing more precise and personalized treatment options. Targeted therapies, such as epidermal growth factor receptor inhibitors, aim to disrupt specific molecular pathways in tumor growth, while immunotherapies, including immune checkpoint inhibitors and chimeric antigen receptor-T cell therapy, enhance the body's immune response to fight cancer. Combination therapies, integrating both targeted and immune strategies, are being explored to overcome the limitations of single-agent treatments. This review highlights the current strategies in the prevention and treatment of oral cancer, discusses emerging therapies, explores future research directions, focusing on optimizing existing treatments, identifying new biomarkers, and developing innovative therapeutic approaches. The potential of personalized medicine and combination therapies offers new hope for improving survival rates and quality of life for oral cancer patients.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Neuroendocrine Transformation as a Mechanism of Resistance to Targeted Lung Cancer Therapies: Emerging Mechanisms and Their Therapeutic Implications.",
+          "authors": "Joshi A, Bhaskar N, Pearson JD.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3390/cancers17020260",
+          "pmid": "39858043",
+          "abstract": "Lung cancer is the leading cause of cancer-related deaths worldwide, highlighting a major clinical challenge. Lung cancer is broadly classified into two histologically distinct subtypes, termed small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC). Identification of various oncogenic drivers of NSCLC has facilitated the development of targeted therapies that have dramatically improved patient outcomes. However, acquired resistance to these targeted therapies is common, which ultimately results in patient relapse. Several on-target and off-target resistance mechanisms have been described for targeted therapies in NSCLC. One common off-target mechanism of resistance to these therapies is histological transformation of the initial NSCLC into SCLC, a highly aggressive form of lung cancer that exhibits neuroendocrine histology. This mechanism of resistance presents a significant clinical challenge, since there are very few treatments available for these relapsed patients. Although the phenomenon of NSCLC-to-SCLC transformation was described almost 20 years ago, only recently have we begun to understand the mechanisms underlying this therapy-driven response. These recent discoveries will be key to identifying novel biomarkers and therapeutic strategies to improve outcomes of patients that undergo NSCLC-to-SCLC transformation. Here, we highlight these recent advances and discuss the potential therapeutic strategies that they have uncovered to target this mechanism of resistance.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Advances in Cancer Therapy: A Comprehensive Review of CDK and EGFR Inhibitors.",
+          "authors": "Hawash M.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/cells13191656",
+          "pmid": "39404419",
+          "abstract": "Protein kinases have essential responsibilities in controlling several cellular processes, and their abnormal regulation is strongly related to the development of cancer. The implementation of protein kinase inhibitors has significantly transformed cancer therapy by modifying treatment strategies. These inhibitors have received substantial FDA clearance in recent decades. Protein kinases have emerged as primary objectives for therapeutic interventions, particularly in the context of cancer treatment. At present, 69 therapeutics have been approved by the FDA that target approximately 24 protein kinases, which are specifically prescribed for the treatment of neoplastic illnesses. These novel agents specifically inhibit certain protein kinases, such as receptor protein-tyrosine kinases, protein-serine/threonine kinases, dual-specificity kinases, nonreceptor protein-tyrosine kinases, and receptor protein-tyrosine kinases. This review presents a comprehensive overview of novel targets of kinase inhibitors, with a specific focus on cyclin-dependent kinases (CDKs) and epidermal growth factor receptor (EGFR). The majority of the reviewed studies commenced with an assessment of cancer cell lines and concluded with a comprehensive biological evaluation of individual kinase targets. The reviewed articles provide detailed information on the structural features of potent anticancer agents and their specific activity, which refers to their ability to selectively inhibit cancer-promoting kinases including CDKs and EGFR. Additionally, the latest FDA-approved anticancer agents targeting these enzymes were highlighted accordingly.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "The MET Oncogene Network of Interacting Cell Surface Proteins.",
+          "authors": "Gallo S, Folco CB, Crepaldi T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms252413692",
+          "pmid": "39769452",
+          "abstract": "The MET oncogene, encoding the hepatocyte growth factor (HGF) receptor, plays a key role in tumorigenesis, invasion, and resistance to therapy, yet its full biological functions and activation mechanisms remain incompletely understood. A feature of MET is its extensive interaction network, encompassing the following: (i) receptor tyrosine kinases (RTKs); (ii) co-receptors (e.g., CDCP1, Neuropilin1); (iii) adhesion molecules (e.g., integrins, tetraspanins); (iv) proteases (e.g., ADAM10); and (v) other receptors (e.g., CD44, plexins, GPCRs, and NMDAR). These interactions dynamically modulate MET's activation, signaling, intracellular trafficking, and degradation, enhancing its functional versatility and oncogenic potential. This review offers current knowledge on MET's partnerships, focusing on their functional impact on signaling output, therapeutic resistance, and cellular behavior. Finally, we evaluate emerging combination therapies targeting MET and its interactors, highlighting their potential to overcome resistance and improve clinical outcomes. By exploring the complex interplay within the MET network of interacting cell surface proteins, this review provides insights into advancing anti-cancer strategies and understanding the broader implications of RTK crosstalk in oncology.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular principles underlying aggressive cancers.",
+          "authors": "Nussinov R, Yavuz BR, Jang H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1038/s41392-025-02129-7",
+          "pmid": "39956859",
+          "abstract": "Aggressive tumors pose ultra-challenges to drug resistance. Anti-cancer treatments are often unsuccessful, and single-cell technologies to rein drug resistance mechanisms are still fruitless. The National Cancer Institute defines aggressive cancers at the tissue level, describing them as those that spread rapidly, despite severe treatment. At the molecular, foundational level, the quantitative biophysics discipline defines aggressive cancers as harboring a large number of (overexpressed, or mutated) crucial signaling proteins in major proliferation pathways populating their active conformations, primed for their signal transduction roles. This comprehensive review explores highly aggressive cancers on the foundational and cell signaling levels, focusing on the differences between highly aggressive cancers and the more treatable ones. It showcases aggressive tumors as harboring massive, cancer-promoting, catalysis-primed oncogenic proteins, especially through certain overexpression scenarios, as predisposed aggressive tumor candidates. Our examples narrate strong activation of ERK1/2, and other oncogenic proteins, through malfunctioning chromatin and crosslinked signaling, and how they activate multiple proliferation pathways. They show the increased cancer heterogeneity, plasticity, and drug resistance. Our review formulates the principles underlying cancer aggressiveness on the molecular level, discusses scenarios, and describes drug regimen (single drugs and drug combinations) for PDAC, NSCLC, CRC, HCC, breast and prostate cancers, glioblastoma, neuroblastoma, and leukemia as examples. All show overexpression scenarios of master transcription factors, transcription factors with gene fusions, copy number alterations, dysregulation of the epigenetic codes and epithelial-to-mesenchymal transitions in aggressive tumors, as well as high mutation loads of vital upstream signaling regulators, such as EGFR, c-MET, and K-Ras, befitting these principles.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Receptor Pharmacogenomics: Deciphering Genetic Influence on Drug Response.",
+          "authors": "Anghel SA, Dinu-Pirvu CE, Costache MA, Voiculescu AM, Ghica MV, Anu\u021ba V, Popa L.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/ijms25179371",
+          "pmid": "39273318",
+          "abstract": "The paradigm \"one drug fits all\" or \"one dose fits all\" will soon be challenged by pharmacogenetics research and application. Drug response-efficacy or safety-depends on interindividual variability. The current clinical practice does not include genetic screening as a routine procedure and does not account for genetic variation. Patients with the same illness receive the same treatment, yielding different responses. Integrating pharmacogenomics in therapy would provide critical information about how a patient will respond to a certain drug. Worldwide, great efforts are being made to achieve a personalized therapy-based approach. Nevertheless, a global harmonized guideline is still needed. Plasma membrane proteins, like receptor tyrosine kinase (RTK) and G protein-coupled receptors (GPCRs), are ubiquitously expressed, being involved in a diverse array of physiopathological processes. Over 30% of drugs approved by the FDA target GPCRs, reflecting the importance of assessing the genetic variability among individuals who are treated with these drugs. Pharmacogenomics of transmembrane protein receptors is a dynamic field with profound implications for precision medicine. Understanding genetic variations in these receptors provides a framework for optimizing drug therapies, minimizing adverse reactions, and advancing the paradigm of personalized healthcare.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Synthetic Routes and Clinical Application of Representative Small-Molecule EGFR Inhibitors for Cancer Therapy.",
+          "authors": "Wang YT, Yang PC, Zhang JY, Sun JF.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.3390/molecules29071448",
+          "pmid": "38611728",
+          "abstract": "The epidermal growth factor receptor (EGFR) plays a pivotal role in cancer therapeutics, with small-molecule EGFR inhibitors emerging as significant agents in combating this disease. This review explores the synthesis and clinical utilization of EGFR inhibitors, starting with the indispensable role of EGFR in oncogenesis and emphasizing the intricate molecular aspects of the EGFR-signaling pathway. It subsequently provides information on the structural characteristics of representative small-molecule EGFR inhibitors in the clinic. The synthetic methods and associated challenges pertaining to these compounds are thoroughly examined, along with innovative strategies to overcome these obstacles. Furthermore, the review discusses the clinical applications of FDA-approved EGFR inhibitors such as erlotinib, gefitinib, afatinib, and osimertinib across various cancer types and their corresponding clinical outcomes. Additionally, it addresses the emergence of resistance mechanisms and potential counterstrategies. Taken together, this review aims to provide valuable insights for researchers, clinicians, and pharmaceutical scientists interested in comprehending the current landscape of small-molecule EGFR inhibitors.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:15:23.663867"
+    },
+    {
+      "id": "4f4583bc-642d-4e80-a94f-e907ec1c6ca2",
+      "query": "Pathways (e.g., \"PI3K/AKT/mTOR pathway\")",
+      "results": [
+        {
+          "title": "TRIB3 is a biomarker of poor prognosis in laryngeal squamous cell carcinoma and may affect tumor development through PI3K / AKT / mTOR pathway.",
+          "authors": "Yuan R, Cheng Z, Zhan X.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1016/j.clinsp.2025.100576",
+          "pmid": "39869954",
+          "abstract": "<h4>Objective</h4>TRIB3 has been confirmed to participate in and regulate biological metabolic activities in head and neck tumors such as nasopharyngeal carcinoma and oropharyngeal carcinoma, so the purpose of this study was to explore whether there is a correlation between TRIB3 and Laryngeal Squamous Cell Carcinoma (LSCC) and to preliminarily explore the biological characteristics of TRIB3 in LSCC.<h4>Methods</h4>TRIB3 expression in the LSCC was analyzed based on The Cancer Genome Atlas (TCGA) database. CCK-8 assay, Colony Formation Assay, wound healing assay, and Transwell assay were performed to investigate the roles of TRIB3 in the proliferation, invasion and metastasis of LSCC. The Protein-Protein Interaction (PPI) network of TRIB3 was analyzed based on the STRING database. Western blotting and qRT-PCR were employed to detect the protein and mRNA expression of TRIB3.<h4>Results</h4>TRIB3 over-expressed in the LSCC, which was related to the poor prognosis of LSCC. Patients with methylation related to high TRIB3 expression had a poorer prognosis. Knock-down of TRIB3 expression suppresses the growth, invasion and migration of LSCCs via PI3K / AKT / mTOR. TIME analysis, surface checkpoint analysis, and prediction model indicated that TRIB3 related risk model displayed a poor prognosis.<h4>Conclusion</h4>This study investigates the role of TRIB3 in the biological characteristics of LSCC, and preliminarily concludes that TRIB3 may be a potentially promising prognostic biomarker for LSCC. TRIB3 may facilitate the growing, invasive and migrating LSCC, leading to a poor prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular pathways in reproductive cancers: a focus on prostate and ovarian cancer.",
+          "authors": "Ajayi AF, Oyovwi MO, Akano OP, Akanbi GB, Adisa FB.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1186/s12935-025-03658-5",
+          "pmid": "39901204",
+          "abstract": "Reproductive cancers, including prostate and ovarian cancer, are highly prevalent worldwide and pose significant health challenges. The molecular underpinnings of these cancers are complex and involve dysregulation of various cellular pathways. Understanding these pathways is crucial for developing effective therapeutic strategies. This review aims to provide an overview of the molecular pathways implicated in prostate and ovarian cancers, highlighting key genetic alterations, signaling cascades, and epigenetic modifications. A comprehensive literature search was conducted using databases such as PubMed, Web of Science, and Google Scholar. Articles focusing on molecular pathways in prostate and ovarian cancer were reviewed and analyzed. In prostate cancer, recurrent mutations in genes like AR, TP53, and PTEN drive tumor growth and progression. Androgen signaling plays a significant role, with alterations in the AR pathway contributing to resistance to antiandrogen therapies. In ovarian cancer, high-grade serous carcinomas are characterized by mutations in TP53, BRCA1/2, and homologous recombination repair genes. PI3K and MAPK pathways are frequently activated, promoting cell proliferation and survival. Epigenetic alterations, including DNA methylation and histone modifications, are also prevalent in both cancer types. The molecular pathways involved in prostate and ovarian cancer are diverse and complex. Targeting these pathways with precision medicine approaches holds promise for improving patient outcomes. Further research is needed to elucidate the mechanisms of resistance and identify novel therapeutic vulnerabilities.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Alcohol intake exacerbates experimental autoimmune prostatitis through activating PI3K/AKT/mTOR pathway-mediated Th1 differentiation.",
+          "authors": "Xu S, Chen J, Yue S, Zhang Y, Zhao S, Hu Y, Zhang C, Guan W, Zhang L, Zhang L, Liang C.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3389/fimmu.2024.1512456",
+          "pmid": "39872540",
+          "abstract": "<h4>Background</h4>Epidemiological investigations have revealed a significant association between alcohol consumption and chronic prostatitis/chronic pelvic pain syndrome (CP/CPPS). Nevertheless, the potential mechanisms are still inadequately revealed. This research aimed to investigate the impact of alcohol on CP/CPPS using an animal model and to elucidate the underlying mechanisms.<h4>Methods</h4>We first established the widely used animal model for CP/CPPS, experimental autoimmune prostatitis (EAP). During the induction of EAP, mice were fed with alcohol or control diet. The HE staining, ELISA, and behavioral experiments were employed to assess the severity of inflammation in EAP mice and EAP-alcohol mice. Patients with a history of chronic alcohol consumption were also included to evaluate the effects of chronic alcohol consumption on CP/CPPS. Subsequently, proteomic analysis, flow cytometry, immunofluorescence, Western blotting, and immunohistochemistry were utilized to investigate the underlying mechanism involved both <i>in vivo</i> and <i>in vitro</i>.<h4>Results</h4>HE staining, ELISA, and behavioral experiments showed that alcohol exacerbated the severity of EAP in mice and patients. Proteomic and KEGG pathway analyses showed that abnormal Th1 differentiation and PI3K/AKT/mTOR pathway were significantly enriched. Subsequent mechanistic research showed that alcohol significantly activated PI3K/AKT/mTOR pathway and increased the Th1 cell differentiation both <i>in vivo</i> and <i>in vitro</i>. In contrast, PI3K inhibitor LY294002 and shRNA-PI3K plasmid inhibited PI3K/AKT/mTOR pathway activation, reduced Th1 cell differentiation, and alleviated EAP inflammation severity, respectively.<h4>Conclusion</h4>Our study is the first to demonstrate that alcohol intake promotes Th1 cell differentiation and exacerbates EAP by activating the PI3K/AKT/mTOR pathway. Additionally, the role of LY294002 in inhibiting PI3K/AKT/mTOR pathway to relieve EAP suggests that it can serve as a promising therapeutic target for CP/CPPS.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "mTOR inhibitors as potential therapeutics for endometriosis: a narrative review.",
+          "authors": "Nakamura A, Tanaka Y, Amano T, Takebayashi A, Takahashi A, Hanada T, Tsuji S, Murakami T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1093/molehr/gaae041",
+          "pmid": "39579091",
+          "abstract": "Mammalian target of rapamycin (mTOR) inhibitors have been used clinically as anticancer and immunosuppressive agents for over 20\u2009years, demonstrating their safety after long-term administration. These inhibitors exhibit various effects, including inhibition of cell proliferation, interaction with the oestrogen and progesterone pathways, immunosuppression, regulation of angiogenesis, and control of autophagy. We evaluated the potential of mTOR inhibitors as therapeutic agents for endometriosis, examined the secondary benefits related to reproductive function, and assessed how their side effects can be managed. We conducted a thorough review of publications on the role of the mTOR pathway and the effectiveness of mTOR inhibitors in endometriosis patients. These results indicate that the mTOR pathway is activated in endometriosis. Additionally, mTOR inhibitors have shown efficacy as monotherapies for endometriosis. They may alleviate resistance to hormonal therapy in endometriosis, suggesting a potential synergistic effect when used in combination with hormonal therapy. The potential reproductive benefits of mTOR inhibitors include decreased miscarriage rates, improved implantation, and prevention of age-related follicular loss and ovarian hyperstimulation syndrome. Activation of the mTOR pathway has also been implicated in the malignant transformation of endometriosis. Preclinical studies suggest that the dosage of mTOR inhibitors needed for treating endometriosis may be lower than that required for anticancer or immunosuppressive therapy, potentially reducing dosage-dependent side effects. In conclusion, while mTOR inhibitors, which allow for pregnancy during oral administration, show potential for clinical use in all stages of endometriosis, current evidence is limited to preclinical studies, and further research is needed to confirm clinical effectiveness.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Sex-Specific Mechanisms of Fluoride-Induced Gonadal Injury: A Multi-Omics Investigation into Reproductive Toxicity and Gut Microbiota Disruption.",
+          "authors": "Ommati MM, Jin Y, Zamiri MJ, Retana-Marquez S, Nategh Ahmadi H, Sabouri S, Song SZ, Heidari R, Wang HW.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1021/acs.jafc.4c10190",
+          "pmid": "39818830",
+          "abstract": "Fluoride, a common agricultural additive used to enhance plant resilience and pest control, poses toxicity risks when exposure surpasses safe thresholds, affecting ecosystems and human health. While its reproductive toxicity is recognized, the sex-specific and cross-generational effects remain underexplored. To address this gap, we employed an integrative approach combining transcriptomics (next-generation sequencing (NGS)), bioinformatic network analysis, gut microbiota sequencing, and <i>in vivo</i> functional assays. ICR mice (F0 generation), both male and female, were exposed to fluoride (100 mg/L in drinking water) for 35 days, continuing through gestation and offspring weaning. Our transcriptomic analysis revealed significant upregulation of autophagy (via the PI3K-AKT-mTOR pathway) and oxidative stress-induced mitochondrial dysfunction in gonadal tissue, with more pronounced effects observed in males. Further integrated analyses of transcriptomic and metabolomic data, supported by <i>in vivo</i> experiments, highlighted oxidative stress, mitochondrial dysfunction, and PI3K-AKT-mTOR pathway activation with stronger effects in males. The principal component analysis confirmed sex-specific transcriptome alterations, with males showing more substantial disruption. Additionally, 16S rRNA sequencing identified significant gut dysbiosis, particularly in males, with an increased <i>Firmicutes/Bacteroidetes</i> ratio and higher abundances of <i>Oscillospirales</i> and <i>Anaerovoracaceae</i>. Moreover, our study identified significant correlations between specific gut microbiota (e.g., <i>Firmicutes</i>, <i>Proteobacteria</i>) and autophagy, oxidative stress, and mitochondrial dysfunction pathways, with notable sex-dependent differences. These findings suggest that gut microbiota may play a critical role in modulating fluoride-induced reproductive toxicity, particularly through their effects on oxidative stress and cellular homeostasis. The breakdown of the gut barrier and elevated serum/gonadal lipopolysaccharide (LPS) levels in fluoride-treated mice further established a link between gut dysbiosis and fluoride-induced reproductive toxicity. These findings underscore the importance of considering sex differences in xenobiotic-induced reproductive and developmental toxicity.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Characterization and evaluation of the cytotoxic, antioxidant, and anti-human lung cancer properties of copper nanoparticles green-synthesized by fennel extract following the PI3K/AKT/Mtor signaling pathway.",
+          "authors": "Huang T, Ma K, Wang Y.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1371/journal.pone.0309207",
+          "pmid": "39787250",
+          "abstract": "This work established the cytotoxic, antioxidant and anticancer effects of copper nanoparticles (CuNPs) manufactured with fennel extract, especially on non-small cell lung cancer (NSCLC) as well. CuNPs caused cytotoxicity in a dose-dependent manner for two NSCLC cell lines, A549 and H1650. At 100 \u03bcg/ml, CuNPs reduced cell viability to 70% in A549 cells and 65% in H1650 cells. which showed a cytotoxic effect (p<0. 05). Lactate dehydrogenase (LDH) was correspondingly present in a high proportion in the cells, demonstrated upon testing. Together with their cytotoxic properties, CuNPs demonstrated high antioxidative activity. When the concentration of the nano particles was high (100 \u03bcg/ml), the ratio of reactive oxygen species (ROS) was reduced as much as 50%, which in turn suggested antioxidant activity. There was plenty of evidence that CuNPs had anti-cancer potential; this has been shown by the effect of the molecules on the PI3K/AKT/mTOR pathway, which was one of the pathways crucial for cancer survival. Western blot analysis and qRT-PCR results indicated a widespread degradation of the proteins in this pathway upon CuNP exposure. Interestingly, there was a declined phosphorylation up to 75% of PI3K, AKT, and mTOR at 100 \u03bcg/ml (p<0. 001). In summary, these findings illustrated the mechanisms behind the therapeutic effect of CuNPs, thus making them good targets for the NSCLC treatment. CuNPs have cytotoxic and antioxidant capacity, as well as significant alterations in lung cancers pathway, and therefore they can be considered as anti-cancer candidates.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Modulation of gut microbiota in targeted cancer therapy: insights on the EGFR/VEGF/KRAS pathways.",
+          "authors": "Gong L, Yang S, Huang J, Li Y.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.20892/j.issn.2095-3941.2024.0320",
+          "pmid": "39593276",
+          "abstract": "The rise in the incidence of cancer globally has led to a heightened interest in targeted therapies as a form of anticancer treatment. Key oncogenic targets, including epidermal growth factor receptor (EGFR), vascular endothelial growth factor (VEGF), and kirsten rat sarcoma viral oncogene homologue (KRAS), have emerged as focal points in the development of targeted agents. Research has investigated the impact of gut microbiota on the efficacy of various anticancer therapies, such as immunotherapy, chemotherapy, and radiotherapy. However, a notable gap exists in the literature regarding the relationship between gut microbiota and targeted agents. This review emphasizes how specific gut microbiota and gut microbiota metabolites, including butyrate, propionate, and ursodeoxycholic acid, interact with oncogenic pathways to modulate anti-tumor effects. Conversely, deoxycholic acid, lipopolysaccharide, and trimethylamine n-oxide may exert pro-tumor effects. Furthermore, modulation of the gut microbiota influences glucose and lipid metabolism, thereby enhancing the response to anti-KRAS agents and addressing diarrhea induced by tyrosine kinase inhibitors. By elucidating the connection between gut microbiota and the EGFR/VEGF/KRAS pathways, this review provides valuable insights for advancing targeted cancer therapy and optimizing treatment outcomes in clinical settings.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Cromolyn sodium reduces LPS-induced pulmonary fibrosis by inhibiting the EMT process enhanced by MC-derived IL-13",
+          "authors": "Tan C, Zhou H, Xiong Q, Xian X, Liu Q, Zhang Z, Xu J, Yao H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "PMID: Unknown",
+          "pmid": "",
+          "abstract": "Abstract not available",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Mpox-Induced Metabolic Alterations.",
+          "authors": "Zandi M, Mousavi FS, Hashemnia SMR.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/jcmm.70341",
+          "pmid": "39779460",
+          "abstract": "The resurgence of mpox as a global health threat highlights the need to understand its interaction with host cell metabolism. Unlike other well-studied viruses, research on mpox is limited, particularly regarding its impact on cellular processes. In this article, we explore how mpox might manipulate metabolic pathways-such as glycolysis, lipid synthesis and mitochondrial dynamics-to enhance its replication and evade immune responses. By drawing parallels with related poxviruses, we underscore the potential for targeting these metabolic shifts as novel therapeutic strategies. Understanding these interactions is crucial for developing effective treatments against mpox.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Metabolic targeting of regulatory T cells in oral squamous cell carcinoma: new horizons in immunotherapy.",
+          "authors": "Gan M, Liu N, Li W, Chen M, Bai Z, Liu D, Liu S.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1186/s12943-024-02193-7",
+          "pmid": "39696340",
+          "abstract": "Oral squamous cell carcinoma (OSCC) is a prevalent oral malignancy, which poses significant health risks with a high mortality rate. Regulatory T cells (Tregs), characterized by their immunosuppressive capabilities, are intricately linked to OSCC progression and patient outcomes. The metabolic reprogramming of Tregs within the OSCC tumor microenvironment (TME) underpins their function, with key pathways such as the tryptophan-kynurenine-aryl hydrocarbon receptor, PI3K-Akt-mTOR and nucleotide metabolism significantly contributing to their suppressive activities. Targeting these metabolic pathways offers a novel therapeutic approach to reduce Treg-mediated immunosuppression and enhance anti-tumor responses. This review explores the metabolic dependencies and pathways that sustain Treg function in OSCC, highlighting key metabolic adaptations such as glycolysis, fatty acid oxidation, amino acid metabolism and PI3K-Akt-mTOR signaling pathway that enable Tregs to thrive in the challenging conditions of the TME. Additionally, the review discusses the influence of the oral microbiome on Treg metabolism and evaluates potential therapeutic strategies targeting these metabolic pathways. Despite the promising potential of these interventions, challenges such as selectivity, toxicity, tumor heterogeneity, and resistance mechanisms remain. The review concludes with perspectives on personalized medicine and integrative approaches, emphasizing the need for continued research to translate these findings into effective clinical applications for OSCC treatment.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:16:25.661936"
+    },
+    {
+      "id": "4f4583bc-642d-4e80-a94f-e907ec1c6ca2",
+      "query": "Pathways (e.g., \"PI3K/AKT/mTOR pathway\")",
+      "results": [
+        {
+          "title": "TRIB3 is a biomarker of poor prognosis in laryngeal squamous cell carcinoma and may affect tumor development through PI3K / AKT / mTOR pathway.",
+          "authors": "Yuan R, Cheng Z, Zhan X.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1016/j.clinsp.2025.100576",
+          "pmid": "39869954",
+          "abstract": "<h4>Objective</h4>TRIB3 has been confirmed to participate in and regulate biological metabolic activities in head and neck tumors such as nasopharyngeal carcinoma and oropharyngeal carcinoma, so the purpose of this study was to explore whether there is a correlation between TRIB3 and Laryngeal Squamous Cell Carcinoma (LSCC) and to preliminarily explore the biological characteristics of TRIB3 in LSCC.<h4>Methods</h4>TRIB3 expression in the LSCC was analyzed based on The Cancer Genome Atlas (TCGA) database. CCK-8 assay, Colony Formation Assay, wound healing assay, and Transwell assay were performed to investigate the roles of TRIB3 in the proliferation, invasion and metastasis of LSCC. The Protein-Protein Interaction (PPI) network of TRIB3 was analyzed based on the STRING database. Western blotting and qRT-PCR were employed to detect the protein and mRNA expression of TRIB3.<h4>Results</h4>TRIB3 over-expressed in the LSCC, which was related to the poor prognosis of LSCC. Patients with methylation related to high TRIB3 expression had a poorer prognosis. Knock-down of TRIB3 expression suppresses the growth, invasion and migration of LSCCs via PI3K / AKT / mTOR. TIME analysis, surface checkpoint analysis, and prediction model indicated that TRIB3 related risk model displayed a poor prognosis.<h4>Conclusion</h4>This study investigates the role of TRIB3 in the biological characteristics of LSCC, and preliminarily concludes that TRIB3 may be a potentially promising prognostic biomarker for LSCC. TRIB3 may facilitate the growing, invasive and migrating LSCC, leading to a poor prognosis.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Molecular pathways in reproductive cancers: a focus on prostate and ovarian cancer.",
+          "authors": "Ajayi AF, Oyovwi MO, Akano OP, Akanbi GB, Adisa FB.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1186/s12935-025-03658-5",
+          "pmid": "39901204",
+          "abstract": "Reproductive cancers, including prostate and ovarian cancer, are highly prevalent worldwide and pose significant health challenges. The molecular underpinnings of these cancers are complex and involve dysregulation of various cellular pathways. Understanding these pathways is crucial for developing effective therapeutic strategies. This review aims to provide an overview of the molecular pathways implicated in prostate and ovarian cancers, highlighting key genetic alterations, signaling cascades, and epigenetic modifications. A comprehensive literature search was conducted using databases such as PubMed, Web of Science, and Google Scholar. Articles focusing on molecular pathways in prostate and ovarian cancer were reviewed and analyzed. In prostate cancer, recurrent mutations in genes like AR, TP53, and PTEN drive tumor growth and progression. Androgen signaling plays a significant role, with alterations in the AR pathway contributing to resistance to antiandrogen therapies. In ovarian cancer, high-grade serous carcinomas are characterized by mutations in TP53, BRCA1/2, and homologous recombination repair genes. PI3K and MAPK pathways are frequently activated, promoting cell proliferation and survival. Epigenetic alterations, including DNA methylation and histone modifications, are also prevalent in both cancer types. The molecular pathways involved in prostate and ovarian cancer are diverse and complex. Targeting these pathways with precision medicine approaches holds promise for improving patient outcomes. Further research is needed to elucidate the mechanisms of resistance and identify novel therapeutic vulnerabilities.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Alcohol intake exacerbates experimental autoimmune prostatitis through activating PI3K/AKT/mTOR pathway-mediated Th1 differentiation.",
+          "authors": "Xu S, Chen J, Yue S, Zhang Y, Zhao S, Hu Y, Zhang C, Guan W, Zhang L, Zhang L, Liang C.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.3389/fimmu.2024.1512456",
+          "pmid": "39872540",
+          "abstract": "<h4>Background</h4>Epidemiological investigations have revealed a significant association between alcohol consumption and chronic prostatitis/chronic pelvic pain syndrome (CP/CPPS). Nevertheless, the potential mechanisms are still inadequately revealed. This research aimed to investigate the impact of alcohol on CP/CPPS using an animal model and to elucidate the underlying mechanisms.<h4>Methods</h4>We first established the widely used animal model for CP/CPPS, experimental autoimmune prostatitis (EAP). During the induction of EAP, mice were fed with alcohol or control diet. The HE staining, ELISA, and behavioral experiments were employed to assess the severity of inflammation in EAP mice and EAP-alcohol mice. Patients with a history of chronic alcohol consumption were also included to evaluate the effects of chronic alcohol consumption on CP/CPPS. Subsequently, proteomic analysis, flow cytometry, immunofluorescence, Western blotting, and immunohistochemistry were utilized to investigate the underlying mechanism involved both <i>in vivo</i> and <i>in vitro</i>.<h4>Results</h4>HE staining, ELISA, and behavioral experiments showed that alcohol exacerbated the severity of EAP in mice and patients. Proteomic and KEGG pathway analyses showed that abnormal Th1 differentiation and PI3K/AKT/mTOR pathway were significantly enriched. Subsequent mechanistic research showed that alcohol significantly activated PI3K/AKT/mTOR pathway and increased the Th1 cell differentiation both <i>in vivo</i> and <i>in vitro</i>. In contrast, PI3K inhibitor LY294002 and shRNA-PI3K plasmid inhibited PI3K/AKT/mTOR pathway activation, reduced Th1 cell differentiation, and alleviated EAP inflammation severity, respectively.<h4>Conclusion</h4>Our study is the first to demonstrate that alcohol intake promotes Th1 cell differentiation and exacerbates EAP by activating the PI3K/AKT/mTOR pathway. Additionally, the role of LY294002 in inhibiting PI3K/AKT/mTOR pathway to relieve EAP suggests that it can serve as a promising therapeutic target for CP/CPPS.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "mTOR inhibitors as potential therapeutics for endometriosis: a narrative review.",
+          "authors": "Nakamura A, Tanaka Y, Amano T, Takebayashi A, Takahashi A, Hanada T, Tsuji S, Murakami T.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1093/molehr/gaae041",
+          "pmid": "39579091",
+          "abstract": "Mammalian target of rapamycin (mTOR) inhibitors have been used clinically as anticancer and immunosuppressive agents for over 20\u2009years, demonstrating their safety after long-term administration. These inhibitors exhibit various effects, including inhibition of cell proliferation, interaction with the oestrogen and progesterone pathways, immunosuppression, regulation of angiogenesis, and control of autophagy. We evaluated the potential of mTOR inhibitors as therapeutic agents for endometriosis, examined the secondary benefits related to reproductive function, and assessed how their side effects can be managed. We conducted a thorough review of publications on the role of the mTOR pathway and the effectiveness of mTOR inhibitors in endometriosis patients. These results indicate that the mTOR pathway is activated in endometriosis. Additionally, mTOR inhibitors have shown efficacy as monotherapies for endometriosis. They may alleviate resistance to hormonal therapy in endometriosis, suggesting a potential synergistic effect when used in combination with hormonal therapy. The potential reproductive benefits of mTOR inhibitors include decreased miscarriage rates, improved implantation, and prevention of age-related follicular loss and ovarian hyperstimulation syndrome. Activation of the mTOR pathway has also been implicated in the malignant transformation of endometriosis. Preclinical studies suggest that the dosage of mTOR inhibitors needed for treating endometriosis may be lower than that required for anticancer or immunosuppressive therapy, potentially reducing dosage-dependent side effects. In conclusion, while mTOR inhibitors, which allow for pregnancy during oral administration, show potential for clinical use in all stages of endometriosis, current evidence is limited to preclinical studies, and further research is needed to confirm clinical effectiveness.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Sex-Specific Mechanisms of Fluoride-Induced Gonadal Injury: A Multi-Omics Investigation into Reproductive Toxicity and Gut Microbiota Disruption.",
+          "authors": "Ommati MM, Jin Y, Zamiri MJ, Retana-Marquez S, Nategh Ahmadi H, Sabouri S, Song SZ, Heidari R, Wang HW.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1021/acs.jafc.4c10190",
+          "pmid": "39818830",
+          "abstract": "Fluoride, a common agricultural additive used to enhance plant resilience and pest control, poses toxicity risks when exposure surpasses safe thresholds, affecting ecosystems and human health. While its reproductive toxicity is recognized, the sex-specific and cross-generational effects remain underexplored. To address this gap, we employed an integrative approach combining transcriptomics (next-generation sequencing (NGS)), bioinformatic network analysis, gut microbiota sequencing, and <i>in vivo</i> functional assays. ICR mice (F0 generation), both male and female, were exposed to fluoride (100 mg/L in drinking water) for 35 days, continuing through gestation and offspring weaning. Our transcriptomic analysis revealed significant upregulation of autophagy (via the PI3K-AKT-mTOR pathway) and oxidative stress-induced mitochondrial dysfunction in gonadal tissue, with more pronounced effects observed in males. Further integrated analyses of transcriptomic and metabolomic data, supported by <i>in vivo</i> experiments, highlighted oxidative stress, mitochondrial dysfunction, and PI3K-AKT-mTOR pathway activation with stronger effects in males. The principal component analysis confirmed sex-specific transcriptome alterations, with males showing more substantial disruption. Additionally, 16S rRNA sequencing identified significant gut dysbiosis, particularly in males, with an increased <i>Firmicutes/Bacteroidetes</i> ratio and higher abundances of <i>Oscillospirales</i> and <i>Anaerovoracaceae</i>. Moreover, our study identified significant correlations between specific gut microbiota (e.g., <i>Firmicutes</i>, <i>Proteobacteria</i>) and autophagy, oxidative stress, and mitochondrial dysfunction pathways, with notable sex-dependent differences. These findings suggest that gut microbiota may play a critical role in modulating fluoride-induced reproductive toxicity, particularly through their effects on oxidative stress and cellular homeostasis. The breakdown of the gut barrier and elevated serum/gonadal lipopolysaccharide (LPS) levels in fluoride-treated mice further established a link between gut dysbiosis and fluoride-induced reproductive toxicity. These findings underscore the importance of considering sex differences in xenobiotic-induced reproductive and developmental toxicity.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Characterization and evaluation of the cytotoxic, antioxidant, and anti-human lung cancer properties of copper nanoparticles green-synthesized by fennel extract following the PI3K/AKT/Mtor signaling pathway.",
+          "authors": "Huang T, Ma K, Wang Y.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1371/journal.pone.0309207",
+          "pmid": "39787250",
+          "abstract": "This work established the cytotoxic, antioxidant and anticancer effects of copper nanoparticles (CuNPs) manufactured with fennel extract, especially on non-small cell lung cancer (NSCLC) as well. CuNPs caused cytotoxicity in a dose-dependent manner for two NSCLC cell lines, A549 and H1650. At 100 \u03bcg/ml, CuNPs reduced cell viability to 70% in A549 cells and 65% in H1650 cells. which showed a cytotoxic effect (p<0. 05). Lactate dehydrogenase (LDH) was correspondingly present in a high proportion in the cells, demonstrated upon testing. Together with their cytotoxic properties, CuNPs demonstrated high antioxidative activity. When the concentration of the nano particles was high (100 \u03bcg/ml), the ratio of reactive oxygen species (ROS) was reduced as much as 50%, which in turn suggested antioxidant activity. There was plenty of evidence that CuNPs had anti-cancer potential; this has been shown by the effect of the molecules on the PI3K/AKT/mTOR pathway, which was one of the pathways crucial for cancer survival. Western blot analysis and qRT-PCR results indicated a widespread degradation of the proteins in this pathway upon CuNP exposure. Interestingly, there was a declined phosphorylation up to 75% of PI3K, AKT, and mTOR at 100 \u03bcg/ml (p<0. 001). In summary, these findings illustrated the mechanisms behind the therapeutic effect of CuNPs, thus making them good targets for the NSCLC treatment. CuNPs have cytotoxic and antioxidant capacity, as well as significant alterations in lung cancers pathway, and therefore they can be considered as anti-cancer candidates.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Modulation of gut microbiota in targeted cancer therapy: insights on the EGFR/VEGF/KRAS pathways.",
+          "authors": "Gong L, Yang S, Huang J, Li Y.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.20892/j.issn.2095-3941.2024.0320",
+          "pmid": "39593276",
+          "abstract": "The rise in the incidence of cancer globally has led to a heightened interest in targeted therapies as a form of anticancer treatment. Key oncogenic targets, including epidermal growth factor receptor (EGFR), vascular endothelial growth factor (VEGF), and kirsten rat sarcoma viral oncogene homologue (KRAS), have emerged as focal points in the development of targeted agents. Research has investigated the impact of gut microbiota on the efficacy of various anticancer therapies, such as immunotherapy, chemotherapy, and radiotherapy. However, a notable gap exists in the literature regarding the relationship between gut microbiota and targeted agents. This review emphasizes how specific gut microbiota and gut microbiota metabolites, including butyrate, propionate, and ursodeoxycholic acid, interact with oncogenic pathways to modulate anti-tumor effects. Conversely, deoxycholic acid, lipopolysaccharide, and trimethylamine n-oxide may exert pro-tumor effects. Furthermore, modulation of the gut microbiota influences glucose and lipid metabolism, thereby enhancing the response to anti-KRAS agents and addressing diarrhea induced by tyrosine kinase inhibitors. By elucidating the connection between gut microbiota and the EGFR/VEGF/KRAS pathways, this review provides valuable insights for advancing targeted cancer therapy and optimizing treatment outcomes in clinical settings.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Cromolyn sodium reduces LPS-induced pulmonary fibrosis by inhibiting the EMT process enhanced by MC-derived IL-13",
+          "authors": "Tan C, Zhou H, Xiong Q, Xian X, Liu Q, Zhang Z, Xu J, Yao H.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "PMID: Unknown",
+          "pmid": "",
+          "abstract": "Abstract not available",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Mpox-Induced Metabolic Alterations.",
+          "authors": "Zandi M, Mousavi FS, Hashemnia SMR.",
+          "journal": "Unknown Journal",
+          "year": "2025",
+          "doi": "10.1111/jcmm.70341",
+          "pmid": "39779460",
+          "abstract": "The resurgence of mpox as a global health threat highlights the need to understand its interaction with host cell metabolism. Unlike other well-studied viruses, research on mpox is limited, particularly regarding its impact on cellular processes. In this article, we explore how mpox might manipulate metabolic pathways-such as glycolysis, lipid synthesis and mitochondrial dynamics-to enhance its replication and evade immune responses. By drawing parallels with related poxviruses, we underscore the potential for targeting these metabolic shifts as novel therapeutic strategies. Understanding these interactions is crucial for developing effective treatments against mpox.",
+          "source": "Europe PMC"
+        },
+        {
+          "title": "Metabolic targeting of regulatory T cells in oral squamous cell carcinoma: new horizons in immunotherapy.",
+          "authors": "Gan M, Liu N, Li W, Chen M, Bai Z, Liu D, Liu S.",
+          "journal": "Unknown Journal",
+          "year": "2024",
+          "doi": "10.1186/s12943-024-02193-7",
+          "pmid": "39696340",
+          "abstract": "Oral squamous cell carcinoma (OSCC) is a prevalent oral malignancy, which poses significant health risks with a high mortality rate. Regulatory T cells (Tregs), characterized by their immunosuppressive capabilities, are intricately linked to OSCC progression and patient outcomes. The metabolic reprogramming of Tregs within the OSCC tumor microenvironment (TME) underpins their function, with key pathways such as the tryptophan-kynurenine-aryl hydrocarbon receptor, PI3K-Akt-mTOR and nucleotide metabolism significantly contributing to their suppressive activities. Targeting these metabolic pathways offers a novel therapeutic approach to reduce Treg-mediated immunosuppression and enhance anti-tumor responses. This review explores the metabolic dependencies and pathways that sustain Treg function in OSCC, highlighting key metabolic adaptations such as glycolysis, fatty acid oxidation, amino acid metabolism and PI3K-Akt-mTOR signaling pathway that enable Tregs to thrive in the challenging conditions of the TME. Additionally, the review discusses the influence of the oral microbiome on Treg metabolism and evaluates potential therapeutic strategies targeting these metabolic pathways. Despite the promising potential of these interventions, challenges such as selectivity, toxicity, tumor heterogeneity, and resistance mechanisms remain. The review concludes with perspectives on personalized medicine and integrative approaches, emphasizing the need for continued research to translate these findings into effective clinical applications for OSCC treatment.",
+          "source": "Europe PMC"
+        }
+      ],
+      "timestamp": "2025-03-02T16:16:25.661936"
+    }
+  ],
+  "created_at": "2025-03-02T15:50:26.542421",
+  "updated_at": "2025-03-02T16:16:25.661945"
+}

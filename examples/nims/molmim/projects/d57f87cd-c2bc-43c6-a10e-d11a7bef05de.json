@@ -1,0 +1,13 @@
+{
+  "id": "d57f87cd-c2bc-43c6-a10e-d11a7bef05de",
+  "name": "xr",
+  "description": "",
+  "genome_type": "Human",
+  "created_at": "2025-03-05T00:59:11.972903",
+  "last_updated": "2025-03-05T00:59:11.972903",
+  "status": "created",
+  "datasets": [],
+  "models": [],
+  "experiments": [],
+  "results": []
+}
